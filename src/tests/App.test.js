@@ -16,7 +16,5 @@ describe('Teste o componente <App.js />', () => {
 
     const linkToFavPokemons = screen.getByRole('link', { name: /Favorite Pokémons/i });
     expect(linkToFavPokemons).toBeInTheDocument();
-
-    // const po
   });
 });
