@@ -53,7 +53,6 @@ describe('Teste o componente <Pokedex.js />', () => {
     const all = screen.getByRole('button', { name: /All/i });
     userEvent.click(all);
 
-    
     const type = screen.getByRole('button', { name: /Fire/i });
     userEvent.click(type);
     const charmander = screen.getByText(/Charmander/i);
